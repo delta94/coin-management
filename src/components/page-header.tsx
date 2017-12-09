@@ -4,7 +4,6 @@ import classNames from 'classnames';
 // const inlineStyles = {};
 
 export function PageHeader({className = '', children = undefined}) {
-
   const mainClass = classNames(
     className.toString(),
     'c-heading',
