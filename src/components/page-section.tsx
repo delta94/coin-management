@@ -3,7 +3,7 @@ import classNames from 'classnames';
 
 // const inlineStyles = {};
 
-export function PageSection({className = '', children = undefined}) {
+export function PageSection({className = '', children = undefined as any}) {
 
   const mainClass = classNames(
     className.toString(),

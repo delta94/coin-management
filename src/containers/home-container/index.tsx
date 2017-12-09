@@ -27,4 +27,4 @@ export function HomeContainer() {
       <br />
     </article>
   );
-};
+}

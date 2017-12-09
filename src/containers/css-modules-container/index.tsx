@@ -45,4 +45,4 @@ export function CssModulesContainer() {
       <br />
     </article>
   );
-};
+}

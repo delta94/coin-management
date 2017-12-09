@@ -7,4 +7,4 @@ export function logToConsole(...restParams: any[]) {
 
 export function logRejection(err: any) {
   console.log('Request Failed:', err);
-};
+}

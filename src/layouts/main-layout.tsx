@@ -29,5 +29,5 @@ export class MainLayout extends React.Component<{}, {}> {
         </LayoutFooter>
       </div>
     );
-  };
-};
+  }
+}

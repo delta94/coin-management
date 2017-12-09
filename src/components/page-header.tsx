@@ -3,7 +3,7 @@ import classNames from 'classnames';
 
 // const inlineStyles = {};
 
-export function PageHeader({className = '', children = undefined}) {
+export function PageHeader({className = '', children = undefined as any}) {
   const mainClass = classNames(
     className.toString(),
     'c-heading',
